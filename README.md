@@ -22,19 +22,19 @@ Every release publishes a `.sha256` beside the installer. On Windows:
 Get-FileHash .\Stayaway_0.1.0_x64-setup.exe -Algorithm SHA256
 ```
 
-Compare it with the published value. Releases also carry a
-[build provenance attestation](https://docs.github.com/actions/security-guides/using-artifact-attestations),
-so you can confirm the binary was built by the release workflow rather than
-uploaded by hand:
+Compare it with the published value. If they differ, do not run the file.
 
-```bash
-gh attestation verify Stayaway_0.1.0_x64-setup.exe --owner meharsulaiman
-```
+The `.sig` file beside it is **not** for you to check by hand — it is what the
+installed app verifies before applying an update, against a public key compiled
+into the application itself. That is the mechanism that stops anyone who can
+serve you a file from serving you a different one.
 
 ## About the Windows warning
 
-These builds are **not yet signed with an Authenticode certificate**, so
-SmartScreen will warn that the publisher is unrecognised, and some antivirus
-software may flag them. That is expected for a new, unsigned application, and
-the checksum and attestation above are how you can check the download is the
-one this workflow produced.
+These builds are **not signed with an Authenticode certificate**, so SmartScreen
+will warn that the publisher is unrecognised, and some antivirus software may
+flag them. That is expected for a new, unsigned application: reputation accrues
+to a signing identity, and an unsigned binary has none to accrue.
+
+The checksum above is how you can confirm the download is the file this project
+published.
