@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0-alpha.1",
+  "notes": null,
+  "pubDate": "2026-09-23T11:14:29.255Z",
+  "assets": {
+    "windows-x86_64": {
+      "url": "https://github.com/meharsulaiman/stayaway-releases/releases/download/v0.1.0-alpha.1/Stayaway_0.1.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVjVaeFhRMmRPaTVtK2x5WGwrQ0xKSVk4QmFoaklnS01oWGI1SU5yYnZBK0ZCZTR0YzdBTWgxQjNaWUh0QTFMelFYZHUwdDBCa3JTMm1sRkhYVFJ0aWFYZ1NENEZCQ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTYyMDU2CWZpbGU6U3RheWF3YXlfMC4xLjBfeDY0LXNldHVwLmV4ZQpOam1DNmVCbUdrNWZ3VFVlV0o3eWsxdUlrcFNCNFZPckFweVlOU2hXQXJ3UHZoQ1RQY2hwdzVRaTJJZ1NZbGFZSDZTQitGUkp0LzNHYkRWdmpLZlBCZz09Cg=="
+    }
+  }
+}
