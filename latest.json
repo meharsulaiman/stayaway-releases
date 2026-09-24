@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "notes": null,
-  "pubDate": "2026-09-23T12:05:32.518Z",
+  "pubDate": "2026-09-24T06:51:08.014Z",
   "assets": {
     "windows-x86_64": {
-      "url": "https://github.com/meharsulaiman/stayaway-releases/releases/download/v0.1.1/Stayaway_0.1.1_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVjVaeFhRMmRPaTFvcG1jSVRPRnZiRk9GOTR1cVRKN2wxaGZJUklwQTljUXE4S3gxWDkvZi9KT3BWMWtua0d1VHcwKy9xT2I5S3V1UFRJbjRHaXE4Szk0T3VBeVBCOGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTY1MTA4CWZpbGU6U3RheWF3YXlfMC4xLjFfeDY0LXNldHVwLmV4ZQo0Yk90ZnVyeUllUW1SMUkxK1B3aFp2TFFDRFBPbk9BTnAwSjVFMU16VzhBZ0tmSkd3UzFYUUtlRW1jVHkzQlZmNFZHRS9rSU4wUTFYUWJJSVZNYnVEUT09Cg=="
+      "url": "https://github.com/meharsulaiman/stayaway-releases/releases/download/v0.1.2/Stayaway_0.1.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVjVaeFhRMmRPaTV2aXVzZVZVS05vL1NYVkRkNjdEYkFscTFWOGN0M2ttblFMbDQwSE05Z0ZLb2RqbHBVVzhKRlpxR1FHZmJFbG9tTUdLenBadG9Na3pEd3JVS0NwMUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjMyNTQ1CWZpbGU6U3RheWF3YXlfMC4xLjJfeDY0LXNldHVwLmV4ZQozZkxRazRkc1A2UGwyVlB4eHlURlJYNVI4SVFWTUhpWE5ZVnZGejd4YWdjekhpVjNWdE8vYjJSRmMwcVg4alJHMHpOcnlxNXowSVR3UUNMNjZ2cmtEZz09Cg=="
     }
   }
 }
